@@ -13,17 +13,17 @@ const QUESTIONS = [
 const REACTIONS = {
   high: [
     { emoji: '🏆', title: 'Ta vooando!', message: 'Você foi  muito bem! (espero que seja verdade)' },
-    { emoji: '🚀', title: 'Ja parece outra pessoa!', message: 'Seu esforço está fazendo a diferença.' },
-    { emoji: '✨', title: 'Dia brilhante!', message: 'Continue assim, você merece comemorar.' },
+    { emoji: '🚀', title: 'Já parece outra pessoa!', message: 'Seu pouco esforço está fazendo a diferença.' },
+    { emoji: '✨', title: 'Dia de gloria chegou!', message: 'Continue assim, você merece uma bala.' },
   ],
   middle: [
-    { emoji: '🙂', title: 'Melhor que nada né!', message: 'Cada passo conta, e seu dedão deixa o passo maior =P.' },
+    { emoji: '🙂', title: 'Melhor que nada né!', message: 'Cada passo conta, e seu dedão deixa o passo ainda maior =P.' },
     { emoji: '🌱', title: 'Você está menos pior!', message: 'Um pouco de cada vez também é progresso.' },
-    { emoji: '👏', title: 'Valeu o esforço minimo!', message: 'Amanhã é uma nova oportunidade para melhorar.' },
+    { emoji: '👏', title: 'Pooh mocoronga!! Tudo bem!', message: 'Nem todo dia sai como planejado. Amanhã você consegue... ou não.' },
   ],
   low: [
-    { emoji: '💛', title: 'Poo mocoronga!! Tudo bem!', message: 'Nem todo dia sai como planejado. Amanhã você consegue.' },
-    { emoji: '🌤️', title: 'Respire, ainda ta ruim', message: 'Um dia de cada vez. Você consegue ser melhor que hoje.' },
+    { emoji: '🥲', title: 'Valeu o esforço minimo!', message: 'Amanhã é uma nova oportunidade para melhorar.' },
+    { emoji: '🌤️', title: 'Persista.', message: 'Não porque vai dar certo, mas porque parar agora também não vai melhorar nada.' },
     { emoji: '🧭', title: 'Ajuste esse relogio', message: 'Pequenos passos podem mudar o seu dia, mas ficar parada não.' },
   ],
 };
