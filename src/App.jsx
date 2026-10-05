@@ -6,7 +6,9 @@ const QUESTIONS = [
   'Você fez bike hoje? (um pouquinho já vale!)',
   'Você separou um tempo para estudar?',
   'Você comprou mais brusinha?(não minta!)',
-  'Você ja tomou sua meta de água hoje?',
+  'Você já bebeu sua meta de água hoje?',
+  'Hoje é um dos 3 dias do mês que você não esta de TPM?', 
+  'Você já humilhou alguém hoje? (se for a Arlete vale ponto)',
   'Já fez algo hoje que te deixou orgulhosa de você mesma?',
 ];
 
@@ -87,7 +89,7 @@ export default function App() {
               <div className="illustration" aria-hidden="true">☀️</div>
               <p className="eyebrow">AGORA A PERTUBAÇÃO SUBIU DE NIVEL HAHA</p>
               <h1>Como quer ser<br />chamada hoje?</h1>
-              <p className="description">Responda algumas perguntas sobre o seu dia, e sem mentir, o morinho vai crescer 👃🏻.</p>
+              <p className="description">Responda algumas perguntas sobre o seu dia, e sem mentir, o morrinho vai crescer 👃🏻.</p>
               <form onSubmit={startChecklist}>
                 <label className="input-label" htmlFor="person-name">SEU NOME</label>
                 <input
